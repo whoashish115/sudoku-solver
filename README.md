@@ -17,7 +17,7 @@
 
 ## Overview
 
-Sudoku Solver is a desktop application for entering, generating, and solving 9x9 Sudoku puzzles. It provides a dark, fullscreen interface with a centered Sudoku board, keyboard navigation, puzzle generation, reset controls, solver status, and a live solve timer.
+Sudoku Solver is a desktop application for entering, generating, and solving 9x9 Sudoku puzzles. It provides a dark, interface with a centered Sudoku board, keyboard navigation, puzzle generation, reset controls, solver status, and a live solve timer.
 
 The solver uses the classic recursive backtracking algorithm. Empty cells are filled one by one, each candidate number is checked against Sudoku row, column, and 3x3 box rules, and invalid branches are rolled back until a valid solution is found.
 
